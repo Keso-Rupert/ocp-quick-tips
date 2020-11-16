@@ -31,12 +31,12 @@ public class NumericPromotion {
     short s = 2;
     byte b = 3;
 
-    short newshort = s + b;
+//    short newshort = s + b;
     int newint = s + b;
 
     long number = 5;
     //...
-    int newnumber = 10 * number;
+//    int newnumber = 10 * number;
 
     public long doSomething(int someValue, double someOtherValue){
         return (int)(someValue * someOtherValue);
