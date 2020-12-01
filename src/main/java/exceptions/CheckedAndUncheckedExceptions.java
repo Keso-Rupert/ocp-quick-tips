@@ -11,7 +11,9 @@ public class CheckedAndUncheckedExceptions {
 
   /*
             Throwable
+            /       \
     Exception       Error
+        |
     Runtime Exception
 
     Unchecked exceptions are subclasses of Runtime Exception (and errors)
